@@ -28,11 +28,11 @@ const Contact: React.FC = () => {
       action: "https://maps.app.goo.gl/g29dcF8m1bPerbcB8"
     },
     {
-      icon: Globe,
-      title: 'Website',
-      content: 'www.antojoseph.website',
-      action: "#"
-    }
+    icon: Globe,
+    title: 'Website',
+    content: 'www.antojoseph.website',
+    action: "https://www.antojoseph.website" // <-- fixed here
+  }
   ];
 
   const socialLinks = [
