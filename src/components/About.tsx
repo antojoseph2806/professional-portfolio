@@ -39,7 +39,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <img
-                    src="images/anto.jpg"
+                    src="anto.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
