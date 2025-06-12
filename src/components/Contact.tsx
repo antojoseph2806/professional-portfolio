@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
       icon: Globe,
       title: 'Website',
       content: 'www.antojoseph.website',
-      action: "www.antojoseph.website"
+      action: "#"
     }
   ];
 
