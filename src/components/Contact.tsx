@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
 
                   {/* Map Placeholder */}
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+                    <div className="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
                       <div className="text-center text-white">
                         <MapPin size={48} className="mx-auto mb-4" />
                         <h3 className="text-xl font-semibold">Maruthaniyil, Prakash P.O</h3>
