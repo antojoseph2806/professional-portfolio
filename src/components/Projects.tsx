@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
         'c.jpg',
       technologies: ['HTML','JavaScript','Node.js','Css', 'Express.js', 'MongoDB'],
       github: 'https://github.com/antojoseph2806/car-rent-project',
-      live: 'https://car-rent-project-lime.vercel.app/',
+      live: 'https://car-rent-project-iota.vercel.app/',
     },
     {
       id: 2,
