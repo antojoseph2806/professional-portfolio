@@ -40,8 +40,8 @@ const Projects: React.FC = () => {
       image:
         'p.jpg',
       technologies: ['Python', 'Django', 'SQLite','HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-      github: '#',
-      live: '#',
+      github: 'https://github.com/antojoseph2806/pneumonia-detection-system',
+      live: 'https://github.com/antojoseph2806/pneumonia-detection-system',
     },
     {
       id: 4,
