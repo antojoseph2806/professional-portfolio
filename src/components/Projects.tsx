@@ -54,6 +54,17 @@ const Projects: React.FC = () => {
       github: 'https://github.com/antojoseph2806/portfolio-website',
       live: 'https://antojoseph.vercel.app/',
     },
+    {
+      id: 5,
+      title: 'Live Science Quiz Web App',
+      description:
+        'The Live Science Quiz Web App is a fully responsive, interactive quiz application built using HTML, CSS, and JavaScript. It provides a smooth and engaging user experience with real-time quiz functionalities, payment integration, and automatic certificate generation.',
+      image:
+        'pp.png',
+      technologies: ['HTML5','JavaScript', 'Razorpay', 'Trivia API','CSS'],
+      github: 'https://github.com/antojoseph2806/quiz-app',
+      live: 'https://quiz-app-beta-roan.vercel.app/',
+    },
   ];
 
   return (
