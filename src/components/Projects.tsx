@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
         'A full-stack web application that streamlines the car rental process. Built with HTML, CSS, and JavaScript on the frontend, featuring interactive UI and Toastify alerts for real-time feedback. The backend is powered by Node.js, with MongoDB handling data storage for users, bookings, and vehicles. This project demonstrates my ability to build scalable, responsive, and user-friendly systems from scratch.',
       image:
         'c.jpg',
-      technologies: ['HTML','JavaScript','Node.js','Css', 'Express.js', 'MongoDB'],
+      technologies: ['HTML','JavaScript','Node.js','CSS', 'Express.js', 'MongoDB'],
       github: 'https://github.com/antojoseph2806/car-rent-project',
       live: 'https://car-rent-project-iota.vercel.app/',
     },
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
       description:
         'A modern, responsive, and interactive portfolio website designed and developed to showcase my skills, projects, and experiences as a developer. Built using React.js for dynamic component-based rendering, along with JavaScript for interactivity and CSS for styling.',
       image:
-        'pp.png',
+        'port.png',
       technologies: ['React. js', ' Tailwind CSS', 'JavaScript','Framer Motion'],
       github: 'https://github.com/antojoseph2806/portfolio-website',
       live: 'https://antojoseph.vercel.app/',
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
       description:
         'The Live Science Quiz Web App is a fully responsive, interactive quiz application built using HTML, CSS, and JavaScript. It provides a smooth and engaging user experience with real-time quiz functionalities, payment integration, and automatic certificate generation.',
       image:
-        'pp.png',
+        'quiz.webp',
       technologies: ['HTML5','JavaScript', 'Razorpay', 'Trivia API','CSS'],
       github: 'https://github.com/antojoseph2806/quiz-app',
       live: 'https://quiz-app-beta-roan.vercel.app/',
@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{project.title}</h3>
                   <p className="text-gray-600 mb-4 text-sm line-clamp-2">{project.description}</p>
                   <div className="flex flex-wrap gap-2">
-                    {project.technologies.slice(0, 3).map((tech, techIndex) => (
+                    {project.technologies.slice(0, 4).map((tech, techIndex) => (
                       <span
                         key={techIndex}
                         className="px-2 py-1 bg-gray-100 text-gray-700 rounded-md text-xs"
